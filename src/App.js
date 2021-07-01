@@ -54,8 +54,7 @@ const getData = (e) =>{
          )
           .catch(()=>{
             if(e === 'search'){
-              setTimeout(() => {
-              
+              setTimeout(() => {   
                 setData(prod)
                 setSkeleton(false)
               }, 4000) 
